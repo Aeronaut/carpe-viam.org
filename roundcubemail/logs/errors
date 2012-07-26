@@ -1,0 +1,636 @@
+[14-Jul-2011 14:38:09 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. AUTHENTICATE CRAM-MD5: A0002 NO Authentication failed. in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1310647088788&_mbox=INBOX&_list=1&_=1310647088788&_unlock=0)
+[14-Jul-2011 14:39:26 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. AUTHENTICATE CRAM-MD5: A0002 NO Authentication failed. in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[14-Jul-2011 14:39:31 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. AUTHENTICATE CRAM-MD5: A0002 NO Authentication failed. in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Jul-2011 11:35:27 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 93.209.85.186. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=getunread&_=1313573631951&_unlock=0)
+[29-Jul-2011 19:56:37] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2011-07-28 21:24:09', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-8' for key 'uniqueness']
+
+[29-Jul-2011 19:56:37 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2011-07-28 21:24:09', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-8' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /phpBB3/roundcubemail/?_task=mail&_action=get&_uid=8&_mbox=INBOX&_part=3)
+[05-Aug-2011 23:23:10 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=4551379854e3c5e33ad2e4&_action=compose)
+[16-Aug-2011 12:20:33 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 79.216.46.199. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/)
+[18-Aug-2011 21:37:21 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:37:24 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:37:29 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:36 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1313696323988&_mbox=INBOX&_list=1&_=1313696323989&_unlock=0)
+[18-Aug-2011 21:38:42 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:44 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:45 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:47 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:47 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:48 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:49 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:51 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:53 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:56 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:57 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:38:58 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:39:00 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[18-Aug-2011 21:39:01 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[24-Aug-2011 17:57:04 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 93.208.121.15. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=list&_mbox=INBOX&_refresh=1&_=1314201472779&_unlock=loading1314201472773)
+[24-Aug-2011 17:57:09 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 93.208.121.15. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/?_task=mail)
+[24-Aug-2011 17:57:19 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 93.208.121.15. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[24-Aug-2011 17:57:21 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 93.208.121.15. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (POST /phpBB3/roundcubemail/?_task=login&_action=login)
+[26-Aug-2011 12:33:13 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.71.45. Could not connect to imap.worldserver.net:143: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1314354807829&_mbox=INBOX&_list=1&_=1314354807829&_unlock=0)
+[14-Sep-2011 14:35:19 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=18869919554e709e860b587&_action=compose)
+[14-Sep-2011 14:35:19 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=18869919554e709e860b587&_action=compose)
+[14-Sep-2011 15:03:14] MDB2 Error: unknown error (-1): prepare: [Error message: Unable to create prepared statement handle]
+[Last executed query: DEALLOCATE PREPARE mdb2_statement_mysqli_3e3a2c1113a53e54b66cf1cea180cbc45c9396c30]
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[14-Sep-2011 15:03:14 +0200]: DB Error: prepare: [Error message: Unable to create prepared statement handle]
+[Last executed query: DEALLOCATE PREPARE mdb2_statement_mysqli_3e3a2c1113a53e54b66cf1cea180cbc45c9396c30]
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1316005397025&_mbox=INBOX&_list=1&_=1316005397027&_unlock=0)
+[14-Sep-2011 15:05:13 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 134.2.64.110. AUTHENTICATE CRAM-MD5:  in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1316005577023&_mbox=INBOX&_list=1&_=1316005577024&_unlock=0)
+[14-Sep-2011 15:05:13] MDB2 Error: unknown error (-1): prepare: [Error message: Unable to create prepared statement handle]
+[Last executed query: DEALLOCATE PREPARE mdb2_statement_mysqli_311e04be24ae85e81acbe62c9a97d70b699cc0700]
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[14-Sep-2011 15:05:13 +0200]: DB Error: prepare: [Error message: Unable to create prepared statement handle]
+[Last executed query: DEALLOCATE PREPARE mdb2_statement_mysqli_311e04be24ae85e81acbe62c9a97d70b699cc0700]
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1316005517022&_mbox=INBOX&_list=1&_=1316005517023&_unlock=0)
+[14-Sep-2011 15:05:13] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO session (sess_id, vars, ip, created, changed) VALUES (?, ?, ?, '2011-09-14 15:05:13', '2011-09-14 15:05:13')]
+[Native code: 1062]
+[Native message: Duplicate entry '0108886f1664b0e00fb4031a9f47637e' for key 'PRIMARY']
+
+[14-Sep-2011 15:05:13 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO session (sess_id, vars, ip, created, changed) VALUES (?, ?, ?, '2011-09-14 15:05:13', '2011-09-14 15:05:13')] [Native code: 1062] [Native message: Duplicate entry '0108886f1664b0e00fb4031a9f47637e' for key 'PRIMARY']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1316005577023&_mbox=INBOX&_list=1&_=1316005577024&_unlock=0)
+[14-Sep-2011 15:05:16 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 134.2.64.110. AUTHENTICATE CRAM-MD5:  in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_imap.php on line 192 (GET /phpBB3/roundcubemail/?_task=mail)
+[21-Sep-2011 19:33:12] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO session (sess_id, vars, ip, created, changed) VALUES (?, ?, ?, '2011-09-21 19:33:12', '2011-09-21 19:33:12')]
+[Native code: 1062]
+[Native message: Duplicate entry '02732c9028f52bd5f71bb409fde6a67d' for key 'PRIMARY']
+
+[21-Sep-2011 19:33:12 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO session (sess_id, vars, ip, created, changed) VALUES (?, ?, ?, '2011-09-21 19:33:12', '2011-09-21 19:33:12')] [Native code: 1062] [Native message: Duplicate entry '02732c9028f52bd5f71bb409fde6a67d' for key 'PRIMARY']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /phpBB3/roundcubemail/?_task=logout)
+[21-Sep-2011 19:33:19 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=16244033894e7a18a7b3b1d&_action=compose)
+[23-Sep-2011 15:26:00 +0200]: IMAP Error: Could not delete message from Archiv in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/sendmail.inc on line 689 (POST /phpBB3/roundcubemail/?_unlock=loading1316784440371?_task=mail&_action=send)
+[29-Sep-2011 12:10:05] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_454ece32f1c48d7d941a4212ed67ea4aac205185a FROM 'SELECT uid FROM messages WHERE user_id=? AND cache_key=? AND idx=?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[29-Sep-2011 12:10:05 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_454ece32f1c48d7d941a4212ed67ea4aac205185a FROM 'SELECT uid FROM messages WHERE user_id=? AND cache_key=? AND idx=?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1317290970391&_mbox=INBOX&_list=1&_=1317290970391&_unlock=0)
+[29-Sep-2011 12:10:05] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5c2c3dc1879b0430229795d46c1fa10b73b22bc3e FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[29-Sep-2011 12:10:05 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5c2c3dc1879b0430229795d46c1fa10b73b22bc3e FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /phpBB3/roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1317290970391&_mbox=INBOX&_list=1&_=1317290970391&_unlock=0)
+[06-Oct-2011 22:27:54 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=21082455504e8e08bfd85e2&_action=compose)
+[08-Oct-2011 16:07:39] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_547fd42954dacb65a7824254e0878ce5de098c9fd FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[08-Oct-2011 16:07:39 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_547fd42954dacb65a7824254e0878ce5de098c9fd FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /phpBB3/roundcubemail/?_task=mail&_action=get&_uid=88&_mbox=Archiv&_part=4)
+[08-Oct-2011 16:10:38] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5f22bdfe046fcab322a380ed27ea15ad50264a153 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[08-Oct-2011 16:10:38 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5f22bdfe046fcab322a380ed27ea15ad50264a153 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /phpBB3/roundcubemail/?_task=mail&_action=get&_uid=88&_mbox=Archiv&_part=4)
+[11-Oct-2011 18:37:37 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=20124569924e946f8d837b2&_action=compose)
+[16-Oct-2011 22:29:27 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=1559681994e9b3e399bc7e&_action=compose)
+[16-Oct-2011 22:32:11] MDB2 Error: deadlock detected (-30): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO session (sess_id, vars, ip, created, changed) VALUES (?, ?, ?, '2011-10-16 22:32:11', '2011-10-16 22:32:11')]
+[Native code: 1213]
+[Native message: Deadlock found when trying to get lock; try restarting transaction]
+
+[16-Oct-2011 22:32:11 +0200]: DB Error: MDB2 Error: deadlock detected Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO session (sess_id, vars, ip, created, changed) VALUES (?, ?, ?, '2011-10-16 22:32:11', '2011-10-16 22:32:11')] [Native code: 1213] [Native message: Deadlock found when trying to get lock; try restarting transaction]  in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /phpBB3/roundcubemail/?_task=logout)
+[27-Oct-2011 17:51:01 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=18818930964ea97689bc29e&_action=compose)
+[27-Oct-2011 17:51:01 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/phpBB3/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /phpBB3/roundcubemail/?_task=mail&_id=18818930964ea97689bc29e&_action=compose)
+[31-Oct-2011 11:22:51] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5073ac4e129bd6fc515c958f94b9c46f3c826adc4 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[31-Oct-2011 11:22:51 +0100]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5073ac4e129bd6fc515c958f94b9c46f3c826adc4 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_framed=1&_action=get&_mbox=Gesendet&_uid=39&_part=2)
+[20-Nov-2011 22:43:30 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=13785263934ec96a38b9203&_action=compose)
+[20-Nov-2011 22:43:32 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=13785263934ec96a38b9203&_action=compose)
+[20-Nov-2011 22:43:36 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=12631024714ec9689fd99a9&_action=compose)
+[20-Nov-2011 22:43:37 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=12631024714ec9689fd99a9&_action=compose)
+[20-Nov-2011 22:43:38 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=12631024714ec9689fd99a9&_action=compose)
+[25-Nov-2011 00:54:27 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=15583233754eced44d4fe89&_action=compose)
+[25-Nov-2011 10:53:59 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=5127593334ecf605c20ac1&_action=compose)
+[08-Jan-2012 17:24:57 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=2193323034f09b6ec97970&_action=compose)
+[10-Jan-2012 00:13:32 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=9961289724f0b6f093aceb&_action=compose)
+[11-Jan-2012 22:07:16 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=18997101684f0df601eaee7&_action=compose)
+[11-Jan-2012 22:07:17 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=18997101684f0df601eaee7&_action=compose)
+[11-Jan-2012 23:58:41 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=13760269834f0dfa622433d&_action=compose)
+[11-Jan-2012 23:58:41 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=13760269834f0dfa622433d&_action=compose)
+[11-Jan-2012 23:58:42 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=13760269834f0dfa622433d&_action=compose)
+[16-Jan-2012 16:46:12 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=7234067304f1441e13aa60&_action=compose)
+[29-Jan-2012 21:30:03 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=19237667644f25a904198f1&_action=compose)
+[04-Feb-2012 16:37:14 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=14612593604f2d50a9f1700&_action=compose)
+[04-Feb-2012 17:00:00 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=11427956434f2d560005acb&_action=compose)
+[08-Feb-2012 10:02:34 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-07 20:54:21', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-206' for key 'uniqueness']
+
+[08-Feb-2012 11:02:35 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-07 20:54:21', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-206' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1328695628086&_mbox=INBOX&_list=1&_=1328695628087&_unlock=0)
+[08-Feb-2012 10:02:35 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-07 21:07:44', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-207' for key 'uniqueness']
+
+[08-Feb-2012 11:02:35 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-07 21:07:44', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-207' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1328695628086&_mbox=INBOX&_list=1&_=1328695628087&_unlock=0)
+[08-Feb-2012 10:02:36 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-07 23:25:18', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-208' for key 'uniqueness']
+
+[08-Feb-2012 11:02:36 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-07 23:25:18', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-208' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1328695628086&_mbox=INBOX&_list=1&_=1328695628087&_unlock=0)
+[08-Feb-2012 10:02:36 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-08 02:39:44', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-209' for key 'uniqueness']
+
+[08-Feb-2012 11:02:36 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-08 02:39:44', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-209' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1328695628086&_mbox=INBOX&_list=1&_=1328695628087&_unlock=0)
+[08-Feb-2012 10:02:36 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-08 04:49:33', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-210' for key 'uniqueness']
+
+[08-Feb-2012 11:02:36 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-08 04:49:33', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-210' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1328695628086&_mbox=INBOX&_list=1&_=1328695628087&_unlock=0)
+[08-Feb-2012 10:02:36 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-08 06:02:24', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-211' for key 'uniqueness']
+
+[08-Feb-2012 11:02:36 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-08 06:02:24', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-211' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1328695628086&_mbox=INBOX&_list=1&_=1328695628087&_unlock=0)
+[08-Feb-2012 10:12:54 UTC] Invalid response code received from server (450): 
+[08-Feb-2012 11:12:54 +0100]: SMTP Error: SMTP error: Failed to add recipient 'Lotti-G@gmx.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1328696251529?_task=mail&_action=send)
+[08-Feb-2012 10:13:21 UTC] Invalid response code received from server (450): 
+[08-Feb-2012 11:13:21 +0100]: SMTP Error: SMTP error: Failed to add recipient 'Lotti-G@gmx.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1328696278670?_task=mail&_action=send)
+[08-Feb-2012 10:13:35 UTC] Invalid response code received from server (450): 
+[08-Feb-2012 11:13:35 +0100]: SMTP Error: SMTP error: Failed to add recipient 'clownpost@lavabit.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1328696292925?_task=mail&_action=send)
+[10-Feb-2012 10:40:00 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_48b6645dd2dda94b15a2b651d5569ef12323beb32 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[10-Feb-2012 11:40:00 +0100]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_48b6645dd2dda94b15a2b651d5569ef12323beb32 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_mbox=INBOX&_uid=226&_part=2)
+[11-Feb-2012 13:28:41 UTC] Invalid response code received from server (450): 
+[11-Feb-2012 14:28:41 +0100]: SMTP Error: SMTP error: Failed to add recipient 'lilian-marleen@web.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1328966906594?_task=mail&_action=send)
+[11-Feb-2012 13:29:22 UTC] Invalid response code received from server (450): 
+[11-Feb-2012 14:29:22 +0100]: SMTP Error: SMTP error: Failed to add recipient 'lilian-marleen@web.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1328966987594?_task=mail&_action=send)
+[11-Feb-2012 13:30:10 UTC] Invalid response code received from server (450): 
+[11-Feb-2012 14:30:10 +0100]: SMTP Error: SMTP error: Failed to add recipient 'seikil@web.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1328967023437?_task=mail&_action=send)
+[11-Feb-2012 13:32:21 UTC] Invalid response code received from server (450): 
+[11-Feb-2012 14:32:21 +0100]: SMTP Error: SMTP error: Failed to add recipient 'seikil@web.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1328967167046?_task=mail&_action=send)
+[17-Feb-2012 11:27:59 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-16 02:20:56', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-285' for key 'uniqueness']
+
+[17-Feb-2012 12:27:59 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-16 02:20:56', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-285' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (POST /roundcubemail/?_task=mail&_action=moveto?_task=&_action=)
+[17-Feb-2012 12:57:56 UTC] Invalid response code received from server (450): 
+[17-Feb-2012 13:57:56 +0100]: SMTP Error: SMTP error: Failed to add recipient 'Ronja-Anna@gmc.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1329483600133?_task=mail&_action=send)
+[18-Feb-2012 13:47:00 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-18 06:15:11', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-312' for key 'uniqueness']
+
+[18-Feb-2012 14:47:00 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-18 06:15:11', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-312' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (POST /roundcubemail/?_task=mail&_action=moveto?_task=&_action=)
+[20-Feb-2012 22:00:40 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=13593506434f42b16c79d90&_action=compose)
+[20-Feb-2012 22:00:41 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=13593506434f42b16c79d90&_action=compose)
+[21-Feb-2012 12:27:38 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-21 10:33:55', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-342' for key 'uniqueness']
+
+[21-Feb-2012 13:27:38 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-02-21 10:33:55', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-342' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (POST /roundcubemail/?_task=mail&_action=moveto?_task=&_action=)
+[01-Mar-2012 09:47:41 UTC] MDB2 Error: unknown error (-1): _execute: [Error message: Unable to execute statement]
+[Last executed query: UPDATE cache SET created=now(), data=? WHERE user_id=? AND cache_key=?]
+[Native code: 2013]
+[Native message: Lost connection to MySQL server during query]
+
+[01-Mar-2012 10:47:41 +0100]: DB Error: MDB2 Error: unknown error Query: _execute: [Error message: Unable to execute statement] [Last executed query: UPDATE cache SET created=now(), data=? WHERE user_id=? AND cache_key=?] [Native code: 2013] [Native message: Lost connection to MySQL server during query]  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1330595402181&_mbox=INBOX&_list=1&_=1330595402181&_unlock=0)
+[01-Mar-2012 09:47:41 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5c6e14215af57d9fb0990f474ae1bcbd7c05f8285 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[01-Mar-2012 10:47:41 +0100]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5c6e14215af57d9fb0990f474ae1bcbd7c05f8285 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1330595402181&_mbox=INBOX&_list=1&_=1330595402181&_unlock=0)
+[01-Mar-2012 09:47:41 UTC] PHP Fatal error:  Using $this when not in object context in Unknown on line 0
+[01-Mar-2012 11:26:55 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-03-01 04:54:22', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-Spam.msg-1' for key 'uniqueness']
+
+[01-Mar-2012 12:26:55 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-03-01 04:54:22', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-Spam.msg-1' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=list&_mbox=Spam&_page=1&_refresh=1&_=1330601419403&_unlock=loading1330601419400)
+[05-Mar-2012 18:19:38 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=8243421414f54f4af67d9a&_action=compose)
+[05-Mar-2012 18:19:41 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=8243421414f54f4af67d9a&_action=compose)
+[05-Mar-2012 18:19:42 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=8243421414f54f4af67d9a&_action=compose)
+[05-Mar-2012 18:19:42 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=8243421414f54f4af67d9a&_action=compose)
+[05-Mar-2012 18:19:42 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=8243421414f54f4af67d9a&_action=compose)
+[05-Mar-2012 18:19:43 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=8243421414f54f4af67d9a&_action=compose)
+[06-Mar-2012 10:18:21 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-03-06 10:04:12', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-385' for key 'uniqueness']
+
+[06-Mar-2012 11:18:21 +0100]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-03-06 10:04:12', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-385' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_action=get&_uid=385&_mbox=INBOX&_part=2)
+[06-Mar-2012 11:35:19 UTC] MDB2 Error: unknown error (-1): prepare: [Error message: Unable to create prepared statement handle]
+[Last executed query: DEALLOCATE PREPARE mdb2_statement_mysqli_3bd9d9094f579f8c27b84598a70a4edf205ae2fc1]
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[06-Mar-2012 12:35:19 +0100]: DB Error: prepare: [Error message: Unable to create prepared statement handle]
+[Last executed query: DEALLOCATE PREPARE mdb2_statement_mysqli_3bd9d9094f579f8c27b84598a70a4edf205ae2fc1]
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1331033910667&_mbox=INBOX&_list=1&_=1331033910667&_unlock=0)
+[06-Mar-2012 11:37:19 UTC] MDB2 Error: unknown error (-1): prepare: [Error message: Unable to create prepared statement handle]
+[Last executed query: DEALLOCATE PREPARE mdb2_statement_mysqli_36bc190157b5e44224c851e812467b3c8f93472a6]
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[06-Mar-2012 12:37:19 +0100]: DB Error: prepare: [Error message: Unable to create prepared statement handle]
+[Last executed query: DEALLOCATE PREPARE mdb2_statement_mysqli_36bc190157b5e44224c851e812467b3c8f93472a6]
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_remote=1&_action=check-recent&_t=1331034030663&_mbox=INBOX&_list=1&_=1331034030663&_unlock=0)
+[14-Mar-2012 20:54:42 UTC] Invalid response code received from server (450): 
+[14-Mar-2012 21:54:42 +0100]: SMTP Error: SMTP error: Failed to add recipient 'Ben.grange@hotmail.fr' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1331758486398?_task=mail&_action=send)
+[14-Mar-2012 20:55:00 UTC] Invalid response code received from server (450): 
+[14-Mar-2012 21:55:00 +0100]: SMTP Error: SMTP error: Failed to add recipient 'Ben.grange@hotmail.fr' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1331758520527?_task=mail&_action=send)
+[14-Mar-2012 20:55:27 UTC] Invalid response code received from server (450): 
+[14-Mar-2012 21:55:27 +0100]: SMTP Error: SMTP error: Failed to add recipient 'Ben.grange@hotmail.fr' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1331758547899?_task=mail&_action=send)
+[14-Mar-2012 20:55:38 UTC] Invalid response code received from server (450): 
+[14-Mar-2012 21:55:38 +0100]: SMTP Error: SMTP error: Failed to add recipient 'Ben.grange@hotmail.fr' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1331758558609?_task=mail&_action=send)
+[18-Mar-2012 21:32:30 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=19756714854f6645f3ebb7b&_action=compose)
+[18-Mar-2012 21:32:33 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=19756714854f6645f3ebb7b&_action=compose)
+[18-Mar-2012 21:32:34 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=19756714854f6645f3ebb7b&_action=compose)
+[18-Mar-2012 21:32:34 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=19756714854f6645f3ebb7b&_action=compose)
+[18-Mar-2012 21:32:34 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=19756714854f6645f3ebb7b&_action=compose)
+[18-Mar-2012 21:32:37 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=3736249584f66452ebb946&_action=compose)
+[18-Mar-2012 21:32:38 +0100]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=3736249584f66452ebb946&_action=compose)
+[01-Apr-2012 18:50:40 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=98332324f7885204e567&_action=compose)
+[07-Apr-2012 15:16:14 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=835285664f803cf9421e0&_action=compose)
+[07-Apr-2012 15:16:20 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=3038576004f803c032d0d8&_action=compose)
+[10-Apr-2012 23:01:25 UTC] Invalid response code received from server (450): 
+[11-Apr-2012 01:01:25 +0200]: SMTP Error: SMTP error: Failed to add recipient 'lancelot666@hotmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1334098873801?_task=mail&_action=send)
+[11-Apr-2012 20:58:28 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-04-11 21:11:25', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-485' for key 'uniqueness']
+
+[11-Apr-2012 22:58:28 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-04-11 21:11:25', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-485' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (POST /roundcubemail/?_task=mail&_action=moveto?_task=&_action=)
+[11-Apr-2012 20:58:28 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-04-11 21:15:09', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-486' for key 'uniqueness']
+
+[11-Apr-2012 22:58:28 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-04-11 21:15:09', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-486' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (POST /roundcubemail/?_task=mail&_action=moveto?_task=&_action=)
+[12-Apr-2012 11:25:02 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=1077655854f869cce96521&_action=compose)
+[12-Apr-2012 11:25:02 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=1077655854f869cce96521&_action=compose)
+[12-Apr-2012 11:25:03 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=1077655854f869cce96521&_action=compose)
+[12-Apr-2012 11:25:04 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=1077655854f869cce96521&_action=compose)
+[12-Apr-2012 11:25:04 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=1077655854f869cce96521&_action=compose)
+[12-Apr-2012 11:25:05 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=1077655854f869cce96521&_action=compose)
+[12-Apr-2012 11:25:06 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=1077655854f869cce96521&_action=compose)
+[12-Apr-2012 11:25:07 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=1077655854f869cce96521&_action=compose)
+[19-Apr-2012 11:33:19 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=10745823374f8fda7571301&_action=compose)
+[19-Apr-2012 11:33:21 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=10745823374f8fda7571301&_action=compose)
+[25-Apr-2012 15:27:04 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=11564798174f97fafa936d2&_action=compose)
+[29-Apr-2012 18:55:52 +0200]: PHP Error: Invalid compose ID in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/sendmail.inc on line 33 (POST /roundcubemail/?_unlock=loading1335718551069?_task=mail&_action=send)
+[29-Apr-2012 18:55:55 +0200]: PHP Error: Invalid compose ID in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/sendmail.inc on line 33 (POST /roundcubemail/?_unlock=loading1335718554292?_task=mail&_action=send)
+[29-Apr-2012 18:56:08 +0200]: PHP Error: Invalid compose ID in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/sendmail.inc on line 33 (POST /roundcubemail/?_unlock=loading1335718567400?_task=mail&_action=send)
+[01-May-2012 17:44:49 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_68a1103e277f13fca9c022664c7c9b2687ef112e6 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[01-May-2012 19:44:49 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_68a1103e277f13fca9c022664c7c9b2687ef112e6 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=539&_mbox=INBOX&_part=2)
+[01-May-2012 17:44:49 UTC] PHP Fatal error:  Using $this when not in object context in Unknown on line 0
+[01-May-2012 18:15:19 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_6466864d1538ed861044eb3e30ac8ca983974bb51 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[01-May-2012 20:15:19 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_6466864d1538ed861044eb3e30ac8ca983974bb51 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=540&_mbox=INBOX&_part=2)
+[01-May-2012 18:15:19 UTC] PHP Fatal error:  Using $this when not in object context in Unknown on line 0
+[08-May-2012 10:02:49 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4cd4a22edc9f8dd9064df7bf492a11f7a9e473e00 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[08-May-2012 12:02:49 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4cd4a22edc9f8dd9064df7bf492a11f7a9e473e00 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_framed=1&_action=get&_mbox=INBOX&_uid=571&_part=3)
+[08-May-2012 10:03:03 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4ddda2cd4a24a40797fa0baa909f2fd0c92f689c8 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[08-May-2012 12:03:03 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4ddda2cd4a24a40797fa0baa909f2fd0c92f689c8 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=571&_mbox=INBOX&_part=2)
+[08-May-2012 10:03:07 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_45661c4f38f131f36c21fa0fa4cc6ae4a720cb82c FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[08-May-2012 12:03:07 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_45661c4f38f131f36c21fa0fa4cc6ae4a720cb82c FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=571&_mbox=INBOX&_part=3)
+[08-May-2012 13:58:35 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-05-08 13:18:16', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-573' for key 'uniqueness']
+
+[08-May-2012 15:58:37 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-05-08 13:18:16', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-573' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_action=get&_uid=573&_mbox=INBOX&_part=6)
+[09-May-2012 08:35:13 UTC] Invalid response code received from server (450): 
+[09-May-2012 10:35:13 +0200]: SMTP Error: SMTP error: Failed to add recipient 'mgm2511@gmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1336552513472?_task=mail&_action=send)
+[09-May-2012 08:35:21 UTC] Invalid response code received from server (450): 
+[09-May-2012 10:35:21 +0200]: SMTP Error: SMTP error: Failed to add recipient 'mgm2511@gmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1336552522590?_task=mail&_action=send)
+[09-May-2012 08:35:34 UTC] Invalid response code received from server (450): 
+[09-May-2012 10:35:34 +0200]: SMTP Error: SMTP error: Failed to add recipient 'mgm2511@gmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1336552535568?_task=mail&_action=send)
+[09-May-2012 08:35:44 UTC] Invalid response code received from server (450): 
+[09-May-2012 10:35:44 +0200]: SMTP Error: SMTP error: Failed to add recipient 'mgm2511@gmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1336552545174?_task=mail&_action=send)
+[09-May-2012 08:36:13 UTC] Invalid response code received from server (450): 
+[09-May-2012 10:36:13 +0200]: SMTP Error: SMTP error: Failed to add recipient 'mgm2511@gmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1336552575042?_task=mail&_action=send)
+[09-May-2012 08:43:24 UTC] Invalid response code received from server (450): 
+[09-May-2012 10:43:24 +0200]: SMTP Error: SMTP error: Failed to add recipient 'mgm2511@gmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1336553006588?_task=mail&_action=send)
+[09-May-2012 08:43:30 UTC] Invalid response code received from server (450): 
+[09-May-2012 10:43:30 +0200]: SMTP Error: SMTP error: Failed to add recipient 'mgm2511@gmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1336553012301?_task=mail&_action=send)
+[12-May-2012 15:01:30 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-05-12 16:12:15', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-596' for key 'uniqueness']
+
+[12-May-2012 17:01:30 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-05-12 16:12:15', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-596' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=list&_mbox=INBOX&_refresh=1&_=1336834890485&_unlock=loading1336834890482)
+[14-May-2012 15:48:52 UTC] Invalid response code received from server (450): 
+[14-May-2012 17:48:52 +0200]: SMTP Error: SMTP error: Failed to add recipient 'lancelot666@hotmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1337010520257?_task=mail&_action=send)
+[14-May-2012 15:49:17 UTC] Invalid response code received from server (450): 
+[14-May-2012 17:49:17 +0200]: SMTP Error: SMTP error: Failed to add recipient 'lancelot666@hotmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1337010547898?_task=mail&_action=send)
+[14-May-2012 15:53:21 UTC] Invalid response code received from server (450): 
+[14-May-2012 17:53:21 +0200]: SMTP Error: SMTP error: Failed to add recipient 'lancelot666@hotmail.com' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1337010792515?_task=mail&_action=send)
+[14-May-2012 17:10:49 UTC] Invalid response code received from server (450): 
+[14-May-2012 19:10:49 +0200]: SMTP Error: SMTP error: Failed to add recipient 'Timo.leistner@hotmail.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1337015450660?_task=mail&_action=send)
+[15-May-2012 09:22:12 UTC] Invalid response code received from server (450): 
+[15-May-2012 11:22:12 +0200]: SMTP Error: SMTP error: Failed to add recipient 'dimi.miron@gmx.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1337073734563?_task=mail&_action=send)
+[15-May-2012 09:22:31 UTC] Invalid response code received from server (450): 
+[15-May-2012 11:22:31 +0200]: SMTP Error: SMTP error: Failed to add recipient 'dimi.miron@gmx.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1337073754057?_task=mail&_action=send)
+[15-May-2012 09:23:06 UTC] Invalid response code received from server (450): 
+[15-May-2012 11:23:06 +0200]: SMTP Error: SMTP error: Failed to add recipient 'dimi.miron@gmx.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1337073788858?_task=mail&_action=send)
+[15-May-2012 09:23:42 UTC] Invalid response code received from server (450): 
+[15-May-2012 11:23:42 +0200]: SMTP Error: SMTP error: Failed to add recipient 'dimi.miron@gmx.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1337073825569?_task=mail&_action=send)
+[15-May-2012 20:02:38 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4451a2b3ad8c988747fc75ffde105ba8ff0f60077 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[15-May-2012 22:02:38 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4451a2b3ad8c988747fc75ffde105ba8ff0f60077 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=607&_mbox=INBOX&_part=2)
+[15-May-2012 20:43:20 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO session (sess_id, vars, ip, created, changed) VALUES (?, ?, ?, '2012-05-15 22:43:20', '2012-05-15 22:43:20')]
+[Native code: 1062]
+[Native message: Duplicate entry '064165c9ca5aa14bf29cdaaa2c5f6bb6' for key 'PRIMARY']
+
+[15-May-2012 22:43:20 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO session (sess_id, vars, ip, created, changed) VALUES (?, ?, ?, '2012-05-15 22:43:20', '2012-05-15 22:43:20')] [Native code: 1062] [Native message: Duplicate entry '064165c9ca5aa14bf29cdaaa2c5f6bb6' for key 'PRIMARY']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_remote=1&_action=pagenav&_uid=607&_mbox=INBOX&_=1337114589219&_unlock=loading1337114589204)
+[15-May-2012 20:55:51 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4fdfb1ac9df091af766da90801f3e89032e742a5a FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[15-May-2012 22:55:51 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4fdfb1ac9df091af766da90801f3e89032e742a5a FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=607&_mbox=INBOX&_part=2)
+[20-May-2012 13:21:17 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_6720ee70a8ba1564938447f18c48a5646f0927c29 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[20-May-2012 15:21:17 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_6720ee70a8ba1564938447f18c48a5646f0927c29 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=627&_mbox=INBOX&_part=2)
+[20-May-2012 13:22:35 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4355de22d7a84655c62d67242c06edc74492b893b FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[20-May-2012 15:22:35 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4355de22d7a84655c62d67242c06edc74492b893b FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_framed=1&_action=get&_mbox=INBOX&_uid=627&_part=2&_download=1)
+[20-May-2012 13:29:22 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4891c381d1c6b676442875a3ddd92abd110d80b2c FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[20-May-2012 15:29:22 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4891c381d1c6b676442875a3ddd92abd110d80b2c FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_framed=1&_action=get&_mbox=INBOX&_uid=627&_part=2&_download=1)
+[20-May-2012 13:49:47 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_42d2472fc4db3df9eb3b45c7c3fe30848cfc012da FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[20-May-2012 15:49:47 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_42d2472fc4db3df9eb3b45c7c3fe30848cfc012da FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_framed=1&_action=get&_mbox=INBOX&_uid=627&_part=2)
+[20-May-2012 13:50:37 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_41ea6975cef812feb500ad2129d36af0c24901adf FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[20-May-2012 15:50:37 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_41ea6975cef812feb500ad2129d36af0c24901adf FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_framed=1&_action=get&_mbox=INBOX&_uid=627&_part=2&_download=1)
+[24-May-2012 09:12:16 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.69.86. Could not connect to ssl://imap.worldserver.net:99: Connection refused in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_imap.php on line 192 (POST /roundcubemail/?_task=login&_action=login)
+[24-May-2012 09:12:18 +0200]: IMAP Error: Login failed for info@carpe-viam.org from 46.223.69.86. Could not connect to ssl://imap.worldserver.net:99: Connection refused in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_imap.php on line 192 (POST /roundcubemail/?_task=login&_action=login)
+[25-May-2012 09:57:03 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4121239cc06802f24d167cbc21e618fc1dba0f557 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[25-May-2012 11:57:03 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4121239cc06802f24d167cbc21e618fc1dba0f557 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=627&_mbox=INBOX&_part=2)
+[25-May-2012 12:50:01 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_43b797e934b39415c8c22a7c149aed76cdb72b8df FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[25-May-2012 14:50:01 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_43b797e934b39415c8c22a7c149aed76cdb72b8df FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=627&_mbox=INBOX&_part=2)
+[29-May-2012 23:11:06 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=3926072774fc5386441b35&_action=compose)
+[29-May-2012 23:11:32 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=3926072774fc5386441b35&_action=compose)
+[31-May-2012 17:07:32 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_301cf3bc1e50e58a37fdd868aea85e19b207f0cee FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[31-May-2012 19:07:32 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_301cf3bc1e50e58a37fdd868aea85e19b207f0cee FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_remote=1&_action=search&_q=Bernard%20Orchestar%2C%20Band&_mbox=INBOX&_headers=text,to,from,subject,cc,bcc&_filter=ALL&_=1338482235520&_unlock=loading1338482235517)
+[04-Jun-2012 08:30:57 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-06-04 10:27:13', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-668' for key 'uniqueness']
+
+[04-Jun-2012 10:30:57 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-06-04 10:27:13', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-668' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_action=get&_uid=668&_mbox=INBOX&_part=3)
+[06-Jun-2012 16:47:35 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=772479964fcf6c9b0a616&_action=compose)
+[14-Jun-2012 22:46:30 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=14100482984fda4b96c4e2b&_action=compose)
+[14-Jun-2012 22:46:31 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=14100482984fda4b96c4e2b&_action=compose)
+[15-Jun-2012 12:14:47 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=6769329524fdb057210319&_action=compose)
+[15-Jun-2012 12:14:51 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=6769329524fdb057210319&_action=compose)
+[18-Jun-2012 21:54:46 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4fb85fa256ee06c8eaa8c262a12b6af077f8f2883 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[18-Jun-2012 23:54:46 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_4fb85fa256ee06c8eaa8c262a12b6af077f8f2883 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=723&_mbox=INBOX&_part=3)
+[18-Jun-2012 21:54:46 UTC] PHP Fatal error:  Using $this when not in object context in Unknown on line 0
+[24-Jun-2012 07:47:19 UTC] Invalid response code received from server (450): 
+[24-Jun-2012 09:47:19 +0200]: SMTP Error: SMTP error: Failed to add recipient 'jule-dp@web.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1340524026723?_task=mail&_action=send)
+[03-Jul-2012 08:14:14 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-07-02 23:16:47', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-798' for key 'uniqueness']
+
+[03-Jul-2012 10:14:14 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-07-02 23:16:47', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-798' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_action=get&_uid=798&_mbox=INBOX&_part=3)
+[03-Jul-2012 23:34:35 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=12949724474ff3645bcf101&_action=compose)
+[06-Jul-2012 08:45:13 UTC] Invalid response code received from server (450): 
+[06-Jul-2012 10:45:13 +0200]: SMTP Error: SMTP error: Failed to add recipient 'jay-p@live.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1341564317606?_task=mail&_action=send)
+[06-Jul-2012 08:45:20 UTC] Invalid response code received from server (450): 
+[06-Jul-2012 10:45:20 +0200]: SMTP Error: SMTP error: Failed to add recipient 'jay-p@live.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1341564325296?_task=mail&_action=send)
+[06-Jul-2012 08:45:28 UTC] Invalid response code received from server (450): 
+[06-Jul-2012 10:45:28 +0200]: SMTP Error: SMTP error: Failed to add recipient 'jay-p@live.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1341564332717?_task=mail&_action=send)
+[06-Jul-2012 09:06:01 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_54e0257d94cd6e4c313d511852e76e9ae000dbdfa FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[06-Jul-2012 11:06:01 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_54e0257d94cd6e4c313d511852e76e9ae000dbdfa FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_mbox=Gesendet&_uid=461&_part=3)
+[06-Jul-2012 09:07:10 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5e9a6a1d5f6ed02b87103e0e8dab63e58c9bcccc7 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[06-Jul-2012 11:07:10 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_5e9a6a1d5f6ed02b87103e0e8dab63e58c9bcccc7 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=461&_mbox=Gesendet&_part=3)
+[06-Jul-2012 09:08:02 UTC] Invalid response code received from server (450): 
+[06-Jul-2012 11:08:02 +0200]: SMTP Error: SMTP error: Failed to add recipient 'jay-p@live.de' in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/func.inc on line 1501 (POST /roundcubemail/?_unlock=loading1341565688504?_task=mail&_action=send)
+[06-Jul-2012 11:11:52 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=2099823224ff6abd54758f&_action=compose)
+[12-Jul-2012 19:06:41 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_6060a3a3388debde7d9be9c8fb924e933f2c8f96a FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[12-Jul-2012 21:06:41 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_6060a3a3388debde7d9be9c8fb924e933f2c8f96a FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=850&_mbox=INBOX&_part=2)
+[12-Jul-2012 19:06:44 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_43dfb153acf9fd6bd5252a9e2321365d05e05adbb FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[12-Jul-2012 21:06:44 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_43dfb153acf9fd6bd5252a9e2321365d05e05adbb FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_framed=1&_action=get&_mbox=INBOX&_uid=850&_part=2)
+[12-Jul-2012 20:37:30 UTC] MDB2 Error: unknown error (-1): _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_430c700bece41dc05db2f4306ce8826bd0478f362 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+
+[12-Jul-2012 22:37:30 +0200]: DB Error: _doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysqli_430c700bece41dc05db2f4306ce8826bd0478f362 FROM 'SELECT vars, ip, UNIX_TIMESTAMP(changed) AS changed FROM session WHERE sess_id = ?']
+[Native code: 2006]
+[Native message: MySQL server has gone away]
+ in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 268 (GET /roundcubemail/?_task=mail&_action=get&_uid=850&_mbox=INBOX&_part=2)
+[13-Jul-2012 09:51:19 UTC] MDB2 Error: constraint violation (-3): _execute: [Error message: Unable to execute statement]
+[Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-07-13 11:47:17', ?, ?, ?)]
+[Native code: 1062]
+[Native message: Duplicate entry '1-INBOX.msg-856' for key 'uniqueness']
+
+[13-Jul-2012 11:51:19 +0200]: DB Error: MDB2 Error: constraint violation Query: _execute: [Error message: Unable to execute statement] [Last executed query: INSERT INTO messages (user_id, del, cache_key, created, idx, uid, subject, `from`, `to`, cc, date, size, headers, structure) VALUES (?, 0, ?, now(), ?, ?, ?, ?, ?, ?, '2012-07-13 11:47:17', ?, ?, ?)] [Native code: 1062] [Native message: Duplicate entry '1-INBOX.msg-856' for key 'uniqueness']  in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/include/rcube_mdb2.php on line 642 (GET /roundcubemail/?_task=mail&_action=get&_uid=856&_mbox=INBOX&_part=3)
+[16-Jul-2012 09:39:27 +0200]: PHP Error: Invalid session in /home/vhosts/5000159132/carpe-viam.org/htdocs/roundcubemail/program/steps/mail/compose.inc on line 44 (GET /roundcubemail/?_task=mail&_id=5743643305003ba2a58dec&_action=compose)

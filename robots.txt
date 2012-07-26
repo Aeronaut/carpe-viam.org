@@ -1,0 +1,27 @@
+# Beispiel einer robots.txt 
+
+# Datei ROBOTS.TXT wird von Spidern oder Robots auf dem Account gesucht wenn Sie Ihre Webseiten bei einem MetaCrawler/Spider eingetragen haben, so wird die robots.txt automatisch von diesem Suchmaschinen-Robot beim Besuch Ihrer Webseiten durchsucht! Ist sie nicht zu finden dann werden ggf. all Ihre Verzeichnisse ausgelesen und indiziert und gelistet.
+
+# Spider oder Robots durchsuchen das Internet bzw. angemeldete Accounts in regelmässigen Abständen, um zu prüfen ob die Accounts noch existieren oder sich etwas geändert hat bei Ihrem Webangebot, um u.a. die Aktualität der Suchmaschinen-Datenbanken aufrecht zu erhalten. 
+
+# Eine Einladung zum Besuch des Robots erfolgt meist durch Meta-Tag-Angaben im Header Ihrer Webseite, wie: 
+
+# <meta name="robots" content="index">
+# <meta name="robots" content="follow">
+# <meta name="robots" content="all">
+# <meta name="revisit-after" CONTENT="30 days">
+
+# Zeilen in dieser robots.txt die mit einer "#" versehen sind, werden vom Robot nicht abgearbeitet bzw. ignoriert!
+
+
+# Hier können Sie mit dem "Disallow:" weitere Verzeichnisse direkt schützen
+# die nicht vom Suchmaschinen-Robots gelistet werden sollen oder indiziert als Eintrag in # der Suchmaschine
+User-agent: *
+Disallow: /images/
+Disallow: /logs/
+Allow: /
+# z.b. Disallow: /mein-nicht-angezeigtes-verzeichnis/
+
+# Hier könnten noch folgende Einschränkungen gemacht werden!
+# User-agent: Scooter
+# Disallow: /
